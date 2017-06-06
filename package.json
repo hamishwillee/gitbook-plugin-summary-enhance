@@ -1,0 +1,17 @@
+{
+    "name": "gitbook-plugin-summary-enhance",
+    "version": "0.0.1",
+    "description": "Adds plays with the summary",
+    "engines": {
+        "gitbook": ">=3.2.2"
+    },
+    "gitbook": {
+        "properties": {
+            "myConfigKey": {
+                "type": "string",
+                "default": "it's the default value",
+                "description": "It defines my awesome config!"
+            }
+        }
+    }
+}
